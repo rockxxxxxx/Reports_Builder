@@ -4,7 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { accordianData } from "../resources/accordionData";
+import { accordianData } from "../../resources/accordionData";
 import Divider from "@mui/material/Divider";
 
 export default function Accordions() {

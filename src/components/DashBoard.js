@@ -3,12 +3,12 @@ import { Responsive, WidthProvider } from "react-grid-layout";
 import "react-grid-layout/css/styles.css";
 import "react-resizable/css/styles.css";
 
-import "../../App.css";
-import { ToolBarContext } from "../contextApi/toolbarContext";
-import BarGraph from "../Widgets/BarGraph";
-import ChartGraph from "../Widgets/CharGraph";
-import Table from "../Widgets/Table";
-import Title from "../Widgets/Title";
+import "../App.css";
+import { ToolBarContext } from "./contextApi/toolbarContext";
+import BarGraph from "./Widgets/BarGraph";
+import ChartGraph from "./Widgets/CharGraph";
+import Table from "./Widgets/Table";
+import Title from "./Widgets/Title";
 
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 

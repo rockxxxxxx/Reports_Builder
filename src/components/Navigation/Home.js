@@ -16,7 +16,7 @@ import { Grid } from "@mui/material";
 import Menu from "../Menu";
 import ToolBar from "../ToolBar";
 import { DndContext } from "@dnd-kit/core";
-import DashBoard from "./DashBoard";
+import DashBoard from "../DashBoard";
 
 const drawerWidth = 65;
 
